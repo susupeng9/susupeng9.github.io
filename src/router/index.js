@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Welcome from '@/views/Welcome.vue';
 import Home from '@/views/Home.vue';
 import SplashPage from '@/views/SplashPage.vue';
@@ -43,7 +43,7 @@ import PenetrationTesterInterview from '@/views/PenetrationTesterInterviewChat.v
 import HistoryReview from '@/views/HistoryReview.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     { path: '/', name: 'Welcome', component: Welcome },
     { path: '/splash', name: 'Splash', component: SplashPage },
@@ -231,4 +231,4 @@ const router = createRouter({
   ]
 });
 
-export default router;
+export default router;    
