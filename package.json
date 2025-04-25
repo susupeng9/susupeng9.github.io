@@ -7,11 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-     "deploy": "gh-pages -d dist --repo https://github.com/susupeng9/susupeng9.github.io.git"
+    "deploy": "gh-pages -d dist --repo https://github.com/susupeng9/susupeng9.github.io.git"
   },
   "dependencies": {
-    "@capacitor/cli": "^6.2.1",
-    "@capacitor/core": "^7.2.0",
+    "@capacapitor/cli": "^6.2.1",
+    "@capacapitor/core": "^7.2.0",
     "axios": "^1.8.4",
     "elevenlabs": "^1.56.1",
     "pinia": "^3.0.1",
